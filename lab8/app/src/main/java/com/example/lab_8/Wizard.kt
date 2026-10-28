@@ -1,6 +1,6 @@
 package com.example.lab_8
 
-class Wizard(val name: String, var mana: Int, var spellPower: Int) { // added comment
+class Wizard(val name: String, var mana: Int, var spellPower: Int) { // added comment for CI test
     fun castSpell(spell: String): Int {
         when (spell) {
             "Explosion" -> {
